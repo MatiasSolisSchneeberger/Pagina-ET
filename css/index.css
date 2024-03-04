@@ -1,0 +1,117 @@
+/* Header */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+
+/* Header */
+
+.main-header {
+    box-sizing: border-box;
+    background-color: #242e47;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 2vw;
+    min-height: 80px;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: auto;
+    z-index: 100000;
+    box-shadow: 2px 3px 100px #3d5590;
+}
+
+/* Logo y Nombre */
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Borde redondeado */
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Elimina la decoración de enlace */
+    color: #333; /* Color del texto del nombre de la página */
+}
+
+.logo-image {
+    width: 80px; /* Ajusta el tamaño del logo según tus necesidades */
+    border-radius: 4px;
+}
+
+/* Nav */
+.main-nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2ecf7;
+    border-radius: 5vw;
+}
+
+.nav-list {
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    margin: 0px 4px;
+}
+
+.nav-link {
+    margin: 5px;
+    padding: 8px 10px;
+    background-color: #4F79C1;
+    text-decoration: none;
+    color: #F2F7FC;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+
+.nav-link:hover {
+    background-color: #ffffff;
+    color: #242E47;
+}
+
+/* Botones de Contactos */
+.Contactos{
+    box-sizing: border-box;
+    display: flex;
+
+}
+.btn-nav {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 12px; /* Botón circular */
+    background-color: #4F79C1; /* Color de fondo del botón */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    fill: #F2F7FC;
+    stroke: #f2f2f2;
+}
+
+.btn-nav:hover {
+    background-color: #d9e0e3; /* Color de fondo al pasar el ratón */
+    fill: #242E47; /* Color del icono al pasar el ratón */
+    stroke: #242E47; /* Color del icono al pasar el ratón */
+}
