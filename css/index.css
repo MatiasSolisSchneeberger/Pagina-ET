@@ -143,7 +143,7 @@ p {
     align-items: center;
     padding: 2vh 2vw; /* Agrega un espacio a los lados */
     /* background-image: url('../Image/Fondo-HeroImage.jpg'); */
-    background-image: url('../Image/Imagen1.jpg');
+    background-image: url('../image/Imagen1.jpg');
 }
 
 .hero::before {
