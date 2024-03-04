@@ -32,7 +32,7 @@ p {
     width: 100vw;
     height: auto;
     z-index: 100000;
-    box-shadow: 2px 3px 100px #3d5590;
+    box-shadow: 0px 5px 10px 5px #3d559073;
 }
 
 /* Logo y Nombre */
@@ -125,11 +125,16 @@ p {
     stroke: #242E47; /* Color del icono al pasar el ratón */
 }
 
+
+
+/* ----------- */
 /* Hero Imagen */
+/* ----------- */
+
 .hero {
     position: relative;
     width: 100%;
-    height: 80vh; /* Resta la altura del header */
+    height: 85vh; /* Resta la altura del header */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -137,9 +142,18 @@ p {
     justify-content: flex-start; /* Alinea el contenido a la izquierda */
     align-items: center;
     padding: 2vh 2vw; /* Agrega un espacio a los lados */
-    background-image: url('../Image/e87eb4a310de48ea4ff840f685a7ee70.jpg');
+    /* background-image: url('../Image/Fondo-HeroImage.jpg'); */
+    background-image: url('../Image/Imagen1.jpg');
+}
 
-    border-bottom: 3px solid #0F4C75;
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor de la opacidad (0.5) para hacerlo más oscuro o más claro */
 }
 
 .hero-content {
