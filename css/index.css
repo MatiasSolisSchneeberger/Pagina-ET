@@ -1,12 +1,20 @@
-/* Header */
-body {
-    margin: 0;
+/* Reset de estilos */
+* {
+    box-sizing: border-box;
     padding: 0;
-    font-family: "Nunito", sans-serif;
-    background-color: #f0f0f0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
 }
-
-
+body {
+    min-height: 100dvh;
+    background-color: #fcfcfc ;
+}
+h1, h2, h3, h4 {
+    text-wrap: balance;
+}
+p {
+    text-wrap: pretty;
+}
 
 /* Header */
 
@@ -58,21 +66,22 @@ body {
 
 .nav-list {
     box-sizing: border-box;
-    padding: 0;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 7px;
 }
 
 .nav-item {
     box-sizing: border-box;
-    margin: 0px 4px;
 }
 
 .nav-link {
-    margin: 5px;
-    padding: 8px 10px;
+    box-sizing: border-box;
+    display: flex;
+    /* margin: 5px; */
+    padding: 6px 18px;
     background-color: #4F79C1;
     text-decoration: none;
     color: #F2F7FC;
@@ -114,4 +123,79 @@ body {
     background-color: #d9e0e3; /* Color de fondo al pasar el ratón */
     fill: #242E47; /* Color del icono al pasar el ratón */
     stroke: #242E47; /* Color del icono al pasar el ratón */
+}
+
+/* Hero Imagen */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 80vh; /* Resta la altura del header */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    align-items: center;
+    padding: 2vh 2vw; /* Agrega un espacio a los lados */
+    background-image: url('../Image/e87eb4a310de48ea4ff840f685a7ee70.jpg');
+
+    border-bottom: 3px solid #0F4C75;
+}
+
+.hero-content {
+    min-width: 50vw; /* Ocupa solo la mitad del ancho */
+    padding: 40px;
+    max-width: 600px;
+    color: #fff;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 8px 32px 0 #13113b5e;
+    backdrop-filter: blur(6px);
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #0F4C75;
+    font-family: "Satisfy", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333;
+    text-wrap: pretty;
+}
+
+.buttons {
+    margin-top: 20px; /* Agrega espacio arriba de los botones */
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #0F4C75;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 0 10px; /* Reduce el espacio a los lados en pantallas más pequeñas */
+    }
+
+    .hero::before {
+        width: 100vw; /* Ocupa todo el ancho en pantallas más pequeñas */
+    }
 }
