@@ -13,7 +13,7 @@
 }
 body {
     min-height: 100dvh;
-    background-color: #fcfcfc ;
+    background-color: #e20d0d ;
 }
 h1, h2, h3, h4 {
     text-wrap: balance;
@@ -21,7 +21,10 @@ h1, h2, h3, h4 {
 p {
     text-wrap: pretty;
 }
-
+/* Colores */
+:root {
+    --primer-color: #ff0000; /* Cambiamos el color a verde */
+}
 /* Header */
     .main-header {
         box-sizing: border-box;
@@ -98,7 +101,7 @@ p {
     }
 
     .nav-link:hover {
-        background-color: #ffffff;
+        background-color: var(--primer-color);
         color: #242E47;
     }
 
@@ -221,3 +224,64 @@ p {
     }
 }
 
+.CancionesSorpresa{
+    background-color: #0C3145;
+    color: #E2ECF7;
+    padding: 6vh 8vw;
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.Presentacion-Canciones{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Presentacion-Canciones h2 {
+    font-family: "Abril Fatface", serif;
+    font-size: 64px;
+    color: green;
+}
+
+.Eras-List {
+    width: 50vw;
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+
+.Era-Item {
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+.Era-Link {
+    box-sizing: border-box;
+    display: flex;
+    /* margin: 5px; */
+    padding: 6px 24px 6px 12px;
+    background-color: #4F79C1;
+    text-decoration: none;
+    color: #F2F7FC;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.Era-Link img {
+    margin-right: 8px;
+}
+.Era-Link:hover {
+    background-color: #ffffff;
+    color: #242E47;
+}
