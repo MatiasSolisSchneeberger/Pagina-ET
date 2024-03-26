@@ -283,8 +283,6 @@ p {
     min-width: 300px;
     max-width: 350px;
     position: relative;
-}
-#era-taylor-swift{
     background: var(--taylor-swift-Original-400,);
 }
 
@@ -351,7 +349,6 @@ p {
     display: flex;
     flex-direction: column;
     gap: 11px;
-    /* align-items: center; */
     justify-content: flex-start;
     align-self: stretch;
     flex-shrink: 0;
