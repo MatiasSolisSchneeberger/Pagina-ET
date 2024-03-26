@@ -1,0 +1,105 @@
+/* Header */
+.main-header {
+    box-sizing: border-box;
+    background-color: var(--midnight-Original-950);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 70px;
+    min-height: 80px;
+    position: sticky;
+    top: 0;
+    /* width: 100vw; */
+    height: auto;
+    z-index: 100000;
+    box-shadow: 0px 5px 50px 1px;
+}
+
+/* Logo y Nombre */
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Borde redondeado */
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 80px; /* Ajusta el tamaño del logo según tus necesidades */
+    border-radius: 4px;
+}
+
+/* Nav */
+.main-nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--midnight-100);
+    border-radius: 5vw;
+}
+
+.nav-list {
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+
+.nav-item {
+    box-sizing: border-box;
+}
+
+.nav-link {
+    box-sizing: border-box;
+    display: flex;
+    /* margin: 5px; */
+    padding: 6px 18px;
+    background-color: var(--midnight-600);
+    text-decoration: none;
+    color: var(--midnight-50);
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+}
+
+.nav-link:hover {
+    background-color: var(--midnight-50);
+    color: var(--midnight-600);
+}
+
+/* Botones de Contactos */
+.Contactos{
+    box-sizing: border-box;
+    display: flex;
+
+}
+.btn-nav {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    padding: 9px;
+    cursor: pointer;
+    border-radius: 12px; /* Botón circular */
+    background-color: var(--midnight-600); /* Color de fondo del botón */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    fill: var(--midnight-100);
+    stroke: var(--midnight-100);
+}
+
+.btn-nav:hover {
+    background-color: var(--midnight-100); /* Color de fondo al pasar el ratón */
+    fill: var(--midnight-600); /* Color del icono al pasar el ratón */
+    stroke: var(--midnight-600); /* Color del icono al pasar el ratón */
+}

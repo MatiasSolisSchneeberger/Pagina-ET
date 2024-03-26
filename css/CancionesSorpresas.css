@@ -1,0 +1,185 @@
+
+.CancionesSorpresa{
+    background-color: var(---1989-950);
+    color: var(--midnight-100);
+    padding: 6vh 8vw;
+    /* width: 100vw; */
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.Presentacion-Canciones{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Presentacion-Canciones h2 {
+    font-family: "Abril Fatface", serif;
+    font-size: 48px;
+    color: var(---1989-100);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.descripción p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+/* ----| Lista de Eras |---- */
+.Eras-List {
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+
+.Era-Item {
+    box-sizing: border-box;
+    margin: 8px;
+}
+
+.Era-Link {
+    height: 40px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 6px 24px 6px 16px;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.15s ease;
+    border-radius: 50px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#btn-TaylorSwift{
+    background-color: var(--taylor-swift-200);
+    color: var(--taylor-swift-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-TaylorSwift:hover{
+    background-color:  var(--taylor-swift-600);
+    color: var(--taylor-swift-200);
+}
+
+#btn-Fearless{
+    background-color: var(--fearless-200);
+    color: var(--fearless-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-Fearless:hover{
+    background-color:  var(--fearless-600);
+    color: var(--fearless-200);
+}
+
+
+#btn-SpeakNow{
+    background-color: var(--speak-now-200);
+    color: var(--speak-now-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-SpeakNow:hover{
+    background-color:  var(--speak-now-600);
+    color: var(--speak-now-200);
+}
+
+
+#btn-Red{
+    background-color: var(--red-200);
+    color: var(--red-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-Red:hover{
+    background-color:  var(--red-600);
+    color: var(--fearless-200);
+}
+
+
+#btn-1989{
+    background-color: var(---1989-Original-200);
+    color: var(---1989-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-1989:hover{
+    background-color:  var(---1989-600);
+    color: var(---1989-Original-200);
+}
+
+
+#btn-Reputation{
+    background-color: var(--reputation-200);
+    color: var(--reputation-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-Reputation:hover{
+    background-color:  var(--reputation-600);
+    color: var(--reputation-200);
+}
+
+
+#btn-Lover{
+    background-color: var(--lover-200);
+    color: var(--lover-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-Lover:hover{
+    background-color:  var(--lover-600);
+    color: var(--lover-200);
+}
+
+
+#btn-Folklore{
+    background-color: var(--folklore-Original-200);
+    color: var(--folklore-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-Folklore:hover{
+    background-color: var(--folklore-600);
+    color: var(--folklore-Original-200);
+}
+
+
+#btn-Evermore{
+    background-color: var(--evermore-200);
+    color: var(--evermore-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+#btn-Evermore:hover{
+    background-color:  var(--evermore-600);
+    color: var(--evermore-200);
+}
+
+#btn-Midnight{
+    background-color: var(--midnight-200);
+    color: var(--midnight-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#btn-Midnight:hover{
+    background-color:  var(--midnight-600);
+    color: var(--midnight-200);
+}
+
+#btn-TheTorturedPoetDepartment{
+    background-color: var(--TTPD-200);
+    color: var(--TTPD-600);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#btn-TheTorturedPoetDepartment:hover{
+    background-color:  var(--TTPD-600);
+    color: var(--TTPD-200);
+}
+
+.Era-Link img {
+    margin-right: 8px;
+}
