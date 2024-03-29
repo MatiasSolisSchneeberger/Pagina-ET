@@ -83,7 +83,7 @@
     }
 
     .hero::before {
-        width: 100vw; /* Ocupa todo el ancho en pantallas más pequeñas */
+        width: 100%; /* Ocupa todo el ancho en pantallas más pequeñas */
     }
 
     .hero-content {
