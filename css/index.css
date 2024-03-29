@@ -161,6 +161,7 @@ p {
 
 .Tarjeta-Era {
     border-radius: 22px;
+    margin: 12px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -171,7 +172,9 @@ p {
     min-width: 300px;
     max-width: 350px;
     position: relative;
-    background-color: var(--taylor-swift-Original-400, #7cac7c);
+}
+#era-taylor-swift {
+    background-color: var(--taylor-swift-Original-400);
 }
 
 .Tarjeta-header {
@@ -186,9 +189,10 @@ p {
     flex-shrink: 0;
     height: 75px;
     position: relative;
-    background: var(--taylor-swift-600, #346737);
 }
-
+#era-taylor-swift .Tarjeta-header{
+    background: var(--taylor-swift-600);
+}
 .Tarjeta-Logo {
     height: 100%;
     flex: 1;
@@ -200,13 +204,17 @@ p {
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+#era-taylor-swift .Tarjeta-Disco {
     background-image: url(../image/Portadas-Discos/01-Portada-TaylorSwift.jpg);
 }
 
@@ -216,22 +224,28 @@ p {
     flex-shrink: 0;
     height: 350px;
     position: relative;
-    backdrop-filter: blur(5px);
     object-fit: contain;
+    backdrop-filter: blur(5px);
 }
 
-.img::before{
+.Color-Multiplicar {
+    mix-blend-mode: multiply;
     border-radius: 12px;
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    mix-blend-mode: multiply; /* Aplicar el color en modo multiplicar */
-    background: var(--taylor-swift-Original-400); 
+    background-color: red ;
+    z-index: 1; /* Asegura que esté encima de la imagen */
+}
+#era-taylor-swift .Color-Multiplicar{
+    background-color: var(--taylor-swift-Original-400,);
 }
 
+#era-taylor-swift .Tarjeta-Img-Descripcion{
+    color: var(--taylor-swift-600)
+}
 
 .Tarjeta-TrackList {
     padding: 0px 12px 0px 12px;
