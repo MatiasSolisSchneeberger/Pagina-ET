@@ -43,7 +43,7 @@
     display: flex;
     font-size: 64px;
     margin-bottom: 20px;
-    color: var(--midnight-100);
+    color: var(--midnights-100);
     font-family: "Abril Fatface", serif;    
     font-optical-sizing: auto;
     font-weight: 200;
@@ -61,7 +61,7 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     font-size: 16px;
-    color: var(--midnight-100);
+    color: var(--midnights-100);
     text-wrap: pretty;
 }
 .hero-content p{
@@ -70,7 +70,7 @@
     font-weight: 600;
 }
 .hero-paragraph strong {
-    color:var(--midnight-300);
+    color:var(--midnights-300);
     /* font-size: 1000; */
     font-family: "Nunito", Courier, monospace;
     font-weight: 600;

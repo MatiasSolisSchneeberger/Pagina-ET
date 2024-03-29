@@ -131,18 +131,18 @@ p {
     --evermore-800: #6c4c40;
     --evermore-900: #584036;
     --evermore-950: #2f201b;
-/* Midnight */
-    --midnight-50: #f2f7fc;
-    --midnight-100: #e2ecf7;
-    --midnight-200: #ccdef1;
-    --midnight-300: #aac9e6;
-    --midnight-400: #81add9;
-    --midnight-500: #6392ce;
-    --midnight-600: #4f79c1;
-    --midnight-700: #4567b0;
-    --midnight-800: #3d5590;
-    --midnight-900: #354873;
-    --midnight-Original-950: #242e47;
+/* Midnights */
+    --midnights-50: #f2f7fc;
+    --midnights-100: #e2ecf7;
+    --midnights-200: #ccdef1;
+    --midnights-300: #aac9e6;
+    --midnights-400: #81add9;
+    --midnights-500: #6392ce;
+    --midnights-600: #4f79c1;
+    --midnights-700: #4567b0;
+    --midnights-800: #3d5590;
+    --midnights-900: #354873;
+    --midnights-Original-950: #242e47;
 /* The Tortured Poets Department */
     --TTPD-50: #f5f3f1;
     --TTPD-100: #e5e3dc;
@@ -158,7 +158,10 @@ p {
 }
 
 /* ---- Tarjetas - Eras ---- */
-
+.Eras{
+    display: flex;
+    flex-wrap: wrap;
+}
 .Tarjeta-Era {
     border-radius: 22px;
     margin: 12px;
@@ -170,11 +173,41 @@ p {
     justify-content: flex-start;
     flex: 1;
     min-width: 300px;
-    max-width: 350px;
+    width: 100%;
     position: relative;
 }
 #era-taylor-swift {
     background-color: var(--taylor-swift-Original-400);
+}
+#era-fearless {
+    background-color: var(--fearless-Original-300);
+}
+#era-speak-now{
+    background-color: var(--speak-now-Original-400);
+}
+#era-red{
+    background-color: var(--red-Original-800);
+}
+#era-1989{
+    background-color: var(---1989-Original-200);
+}
+#era-reputation{
+    background-color: var(--reputation-Original-500);
+}
+#era-lover{
+    background-color: var(--lover-400);
+}
+#era-folklore{
+    background-color: var(--folklore-Original-200);
+}
+#era-evermore{
+    background-color: var(--evermore-Original-300);
+}
+#era-midnights{
+    background-color: var(--midnights-600);
+}
+#era-TTPD{
+    background-color: var(--TTPD-Original-400);
 }
 
 .Tarjeta-header {
@@ -190,9 +223,42 @@ p {
     height: 75px;
     position: relative;
 }
+
 #era-taylor-swift .Tarjeta-header{
     background: var(--taylor-swift-600);
 }
+#era-fearless .Tarjeta-header{
+    background: var(--fearless-600);
+}
+#era-speak-now .Tarjeta-header{
+    background: var(--speak-now-700);
+}
+#era-red .Tarjeta-header{
+    background: var(--red-400);
+}
+#era-1989 .Tarjeta-header{
+    background: var(---1989-300);
+}
+#era-reputation .Tarjeta-header{
+    background: var(--reputation-400);
+}
+#era-lover .Tarjeta-header{
+    background: var(--lover-Original-300);
+}
+#era-folklore .Tarjeta-header{
+    background: var(--folklore-400);
+}
+#era-evermore .Tarjeta-header{
+    background: var(--evermore-500);
+}
+#era-midnights .Tarjeta-header{
+    background: var(--midnights-900);
+}
+#era-TTPD .Tarjeta-header{
+    background: var(--TTPD-300);
+}
+
+
 .Tarjeta-Logo {
     height: 100%;
     flex: 1;
@@ -217,6 +283,37 @@ p {
 #era-taylor-swift .Tarjeta-Disco {
     background-image: url(../image/Portadas-Discos/01-Portada-TaylorSwift.jpg);
 }
+#era-fearless .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/02-Portada-Fearless.jpg);
+}
+#era-speak-now .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/03-Portada-SpeakNow.png);
+}
+#era-red .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/03-Portada-Red.jpg);
+}
+#era-1989 .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/05-Portada-1989.jpg);
+}
+#era-reputation .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/06-Portada-Reputation.jpg);
+}
+#era-lover .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/07-Portada-Lover.jpg);
+}
+#era-folklore .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/08-Portada-Folklore.jpg);
+}
+#era-evermore .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/09-Portada-Evermore.jpg);
+}
+#era-midnights .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/10-Portada-Midnights.jpg);
+}
+#era-TTPD .Tarjeta-Disco {
+    background-image: url(../image/Portadas-Discos/11-TTPD.jpg);
+}
+
 
 .Tarjeta-Disco img {
     border-radius: 12px;
@@ -240,11 +337,72 @@ p {
     z-index: 1; /* Asegura que esté encima de la imagen */
 }
 #era-taylor-swift .Color-Multiplicar{
-    background-color: var(--taylor-swift-Original-400,);
+    background-color: var(--taylor-swift-Original-400);
 }
+#era-fearless .Color-Multiplicar{
+    background-color: var(--fearless-Original-300);
+}
+#era-speak-now .Color-Multiplicar{
+    background-color: var(--speak-now-Original-400);
+}
+#era-red .Color-Multiplicar{
+    background-color: var(--red-Original-800);
+}
+#era-1989 .Color-Multiplicar{
+    background-color: var(---1989-Original-200);
+}
+#era-reputation .Color-Multiplicar{
+    background-color: var(--reputation-Original-500);
+}
+#era-lover .Color-Multiplicar{
+    background-color: var(--lover-Original-300);
+}
+#era-folklore .Color-Multiplicar{
+    background-color: var(--folklore-Original-200);
+}
+#era-evermore .Color-Multiplicar{
+    background-color: var(--evermore-Original-300);
+}
+#era-midnights .Color-Multiplicar{
+    background-color: var(--midnights-300);
+}
+#era-TTPD .Color-Multiplicar{
+    background-color: var(--TTPD-Original-400);
+}
+
 
 #era-taylor-swift .Tarjeta-Img-Descripcion{
     color: var(--taylor-swift-600)
+}
+#era-fearless .Tarjeta-Img-Descripcion{
+    color: var(--fearless-600)
+}
+#era-speak-now .Tarjeta-Img-Descripcion{
+    color: var(--speak-now-600)
+}
+#era-red .Tarjeta-Img-Descripcion{
+    color: var(--red-600)
+}
+#era-1989 .Tarjeta-Img-Descripcion{
+    color: var(---1989-600)
+}
+#era-reputation .Tarjeta-Img-Descripcion{
+    color: var(--reputation-600)
+}
+#era-lover .Tarjeta-Img-Descripcion{
+    color: var(--lover-600)
+}
+#era-folklore .Tarjeta-Img-Descripcion{
+    color: var(--folklore-600)
+}
+#era-evermore .Tarjeta-Img-Descripcion{
+    color: var(--evermore-600)
+}
+#era-midnights .Tarjeta-Img-Descripcion{
+    color: var(--midnights-600)
+}
+#era-TTPD .Tarjeta-Img-Descripcion{
+    color: var(--TTPD-600)
 }
 
 .Tarjeta-TrackList {
@@ -267,15 +425,18 @@ p {
     align-self: stretch;
 }
 
-.TrackList-Cantado {
+#era-taylor-swift .TrackList-Cantado {
     color: var(--taylor-swift-800);
 }
 
-.TrackList-SetList{
+#era-taylor-swift .TrackList-SetList{
     color: var(--taylor-swift-600);
 }
 
-.TrackList-NoCantado{
+#era-taylor-swift .TrackList-NoCantado{
     color: var(--taylor-swift-200);
 }
+
+
+
 
