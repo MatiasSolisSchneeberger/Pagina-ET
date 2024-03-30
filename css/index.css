@@ -406,7 +406,7 @@ p {
 }
 
 .Tarjeta-TrackList {
-    padding: 0px 12px 0px 12px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 11px;
@@ -428,105 +428,157 @@ p {
 #era-taylor-swift .TrackList-Cantado {
     color: var(--taylor-swift-800);
 }
-#era-fearless .TrackList-Cantado {
-    color: var(--fearless-800);
-}
-#era-speak-now .TrackList-Cantado {
-    color: var(--speak-now-800);
-}
-#era-red .TrackList-Cantado {
-    color: var(--red-300);
-}
-#era-1989 .TrackList-Cantado {
-    color: var(---1989-800);
-}
-#era-reputation .TrackList-Cantado {
-    color: var(--reputation-800);
-}
-#era-lover .TrackList-Cantado {
-    color: var(--lover-800);
-}
-#era-folklore .TrackList-Cantado {
-    color: var(--folklore-800);
-}
-#era-evermore .TrackList-Cantado {
-    color: var(--evermore-800);
-}
-#era-midnights .TrackList-Cantado {
-    color: var(--midnights-800);
-}
-#era-TTPD .TrackList-Cantado {
-    color: var(--TTPD-800);
-}
 
 #era-taylor-swift .TrackList-SetList{
     color: var(--taylor-swift-600);
-}
-#era-fearless .TrackList-SetList {
-    color: var(--fearless-600);
-}
-#era-speak-now .TrackList-SetList {
-    color: var(--speak-now-600);
-}
-#era-red .TrackList-SetList {
-    color: var(--red-600);
-}
-#era-1989 .TrackList-SetList {
-    color: var(---1989-600);
-}
-#era-reputation .TrackList-SetList {
-    color: var(--reputation-600);
-}
-#era-lover .TrackList-SetList {
-    color: var(--lover-600);
-}
-#era-folklore .TrackList-SetList {
-    color: var(--folklore-600);
-}
-#era-evermore .TrackList-SetList {
-    color: var(--evermore-600);
-}
-#era-midnights .TrackList-SetList {
-    color: var(--midnights-800);
-}
-#era-TTPD .TrackList-SetList {
-    color: var(--TTPD-600);
 }
 
 #era-taylor-swift .TrackList-NoCantado{
     color: var(--taylor-swift-200);
 }
+
+
+
+#era-fearless .TrackList-Cantado {
+    color: var(--fearless-600);
+}
+
+#era-fearless .TrackList-SetList {
+    color: var(--fearless-800);
+}
+
 #era-fearless .TrackList-NoCantado {
-    color: var(--fearless-200);
+    color: var(--fearless-100);
 }
+
+
+#era-speak-now .TrackList-Cantado {
+    color: var(--speak-now-900);
+}
+
+#era-speak-now .TrackList-SetList {
+    color: var(--speak-now-600);
+}
+
 #era-speak-now .TrackList-NoCantado {
-    color: var(--speak-now-500);
+    color: var(--speak-now-200);
 }
+
+
+#era-red .TrackList-Cantado {
+    color: var(--red-300);
+}
+
+#era-red .TrackList-SetList {
+    color: var(--red-400);
+}
+
 #era-red .TrackList-NoCantado {
-    color: var(--);
+    color: var(--red-500);
 }
+
+#era-1989 .TrackList-Cantado {
+    color: var(---1989-900);
+}
+
+#era-1989 .TrackList-SetList {
+    color: var(---1989-700);
+}
+
 #era-1989 .TrackList-NoCantado {
-    color: var(--);
+    color: var(---1989-400);
 }
+
+
+#era-reputation .TrackList-Cantado {
+    color: var(--reputation-900);
+}
+
+#era-reputation .TrackList-SetList {
+    color: var(--reputation-300);
+}
+
 #era-reputation .TrackList-NoCantado{
-    color: var(--);
+    color: var(--reputation-200);
 }
+
+
+#era-lover .TrackList-Cantado {
+    color: var(--lover-800);
+}
+
+#era-lover .TrackList-SetList {
+    color: var(--lover-600);
+}
+
 #era-lover .TrackList-NoCantado {
-    color: var(--);
+    color: var(--lover-200);
 }
+
+
+#era-folklore .TrackList-Cantado {
+    color: var(--folklore-900);
+}
+
+#era-folklore .TrackList-SetList {
+    color: var(--folklore-700);
+}
+
 #era-folklore .TrackList-NoCantado {
-    color: var(--);
+    color: var(--folklore-400);
 }
+
+
+#era-evermore .TrackList-Cantado {
+    color: var(--evermore-800);
+}
+
+#era-evermore .TrackList-SetList {
+    color: var(--evermore-600);
+}
+
 #era-evermore .TrackList-NoCantado {
-    color: var(--);
+    color: var(--evermore-200);
 }
+
+
+#era-midnights .TrackList-Cantado {
+    color: var(--midnights-900);
+}
+
+#era-midnights .TrackList-SetList {
+    color: var(--midnights-400);
+}
+
 #era-midnights .TrackList-NoCantado {
-    color: var(--);
+    color: var(--midnights-200);
 }
+
+
+#era-TTPD .TrackList-Cantado {
+    color: var(--TTPD-800);
+}
+
+#era-TTPD .TrackList-SetList {
+    color: var(--TTPD-600);
+}
+
 #era-TTPD .TrackList-NoCantado {
-    color: var(--);
+    color: var(--TTPD-300);
 }
 
-
+.Proximo{
+    background: var(--the-tortured-poets-department-600, #766858);
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    color: var(--the-tortured-poets-department-200, #cdc9bb);
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
 
 
