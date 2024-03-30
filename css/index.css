@@ -435,7 +435,7 @@ p {
     color: var(--speak-now-800);
 }
 #era-red .TrackList-Cantado {
-    color: var(--red-Original-800);
+    color: var(--red-300);
 }
 #era-1989 .TrackList-Cantado {
     color: var(---1989-800);
@@ -497,10 +497,10 @@ p {
     color: var(--taylor-swift-200);
 }
 #era-fearless .TrackList-NoCantado {
-    color: var(--);
+    color: var(--fearless-200);
 }
 #era-speak-now .TrackList-NoCantado {
-    color: var(--);
+    color: var(--speak-now-500);
 }
 #era-red .TrackList-NoCantado {
     color: var(--);
