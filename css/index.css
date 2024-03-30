@@ -155,6 +155,12 @@ p {
     --TTPD-800: #534740;
     --TTPD-900: #493f3a;
     --TTPD-950: #29221f;
+    /* Mashup */
+    --mashup-color1: #2b7fa5;
+    --mashup-color2: #e6bbb0;
+    --mashup-color3: #073060;
+    --mashup-color4: #9f7867;
+    --mashup-color5: #c2a09c;
 }
 
 /* ---- Tarjetas - Eras ---- */
@@ -207,7 +213,10 @@ p {
     background-color: var(--midnights-600);
 }
 #era-TTPD{
-    background-color: var(--TTPD-Original-400);
+    background-color: var(--TTPD-600);
+}
+#mashups {
+    background-color: var(--mashup-color1);
 }
 
 .Tarjeta-header {
@@ -222,6 +231,14 @@ p {
     flex-shrink: 0;
     height: 75px;
     position: relative;
+}
+
+
+.Tarjeta-Titulo {
+    font-family: "Abril Fatface", serif;
+    font-size: 32px;
+    font-weight: 100;
+    color: var(--mashup-color4);
 }
 
 #era-taylor-swift .Tarjeta-header{
@@ -255,7 +272,10 @@ p {
     background: var(--midnights-900);
 }
 #era-TTPD .Tarjeta-header{
-    background: var(--TTPD-300);
+    background: var(--TTPD-200);
+}
+#mashups .Tarjeta-header{
+    background: var(--mashup-color2);
 }
 
 
@@ -315,7 +335,7 @@ p {
 }
 
 
-.Tarjeta-Disco img {
+.Tarjeta-Portada {
     border-radius: 12px;
     align-self: stretch;
     flex-shrink: 0;
@@ -323,6 +343,10 @@ p {
     position: relative;
     object-fit: contain;
     backdrop-filter: blur(5px);
+}
+
+#mashups .Tarjeta-Portada{
+    object-fit: cover;
 }
 
 .Color-Multiplicar {
@@ -333,7 +357,6 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: red ;
     z-index: 1; /* Asegura que esté encima de la imagen */
 }
 #era-taylor-swift .Color-Multiplicar{
@@ -367,7 +390,7 @@ p {
     background-color: var(--midnights-300);
 }
 #era-TTPD .Color-Multiplicar{
-    background-color: var(--TTPD-Original-400);
+    background-color: var(--TTPD-300);
 }
 
 
@@ -404,6 +427,10 @@ p {
 #era-TTPD .Tarjeta-Img-Descripcion{
     color: var(--TTPD-200)
 }
+#mashups .Tarjeta-Img-Descripcion{
+    color: var(--mashup-color2)
+}
+
 
 .Tarjeta-TrackList {
     padding: 10px;
@@ -567,15 +594,19 @@ p {
     color: var(--TTPD-300);
 }
 
+#mashups .TrackList-Cantado{
+    color: var(--mashup-color3);
+}
+
 .Proximo{
-    background: var(--the-tortured-poets-department-600, #766858);
+    background: var(--TTPD-800);
     border-radius: 12px;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     align-self: stretch;
-    color: var(--the-tortured-poets-department-200, #cdc9bb);
+    color: var(--TTPD-200);
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     font-weight: 700;
