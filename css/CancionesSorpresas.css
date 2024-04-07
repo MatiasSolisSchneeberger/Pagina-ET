@@ -72,122 +72,122 @@
 }
 
 #btn-TaylorSwift{
-    background-color: var(--taylor-swift-200);
-    color: var(--taylor-swift-600);
+    background-color: var(--taylor-swift-600);
+    color: var(--taylor-swift-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-TaylorSwift:hover{
-    background-color:  var(--taylor-swift-600);
-    color: var(--taylor-swift-200);
+    background-color:  var(--taylor-swift-200);
+    color: var(--taylor-swift-600);
 }
 
 #btn-Fearless{
-    background-color: var(--fearless-200);
-    color: var(--fearless-600);
+    background-color: var(--fearless-600);
+    color: var(--fearless-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-Fearless:hover{
-    background-color:  var(--fearless-600);
-    color: var(--fearless-200);
+    background-color:  var(--fearless-200);
+    color: var(--fearless-600);
 }
 
 
 #btn-SpeakNow{
-    background-color: var(--speak-now-200);
-    color: var(--speak-now-600);
+    background-color: var(--speak-now-600);
+    color: var(--speak-now-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-SpeakNow:hover{
-    background-color:  var(--speak-now-600);
-    color: var(--speak-now-200);
+    background-color:  var(--speak-now-200);
+    color: var(--speak-now-600);
 }
 
 
 #btn-Red{
-    background-color: var(--red-200);
-    color: var(--red-600);
+    background-color: var(--red-600);
+    color: var(--red-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-Red:hover{
-    background-color:  var(--red-600);
-    color: var(--fearless-200);
+    background-color:  var(--red-200);
+    color: var(--fearless-600);
 }
 
 
 #btn-1989{
-    background-color: var(---1989-Original-200);
-    color: var(---1989-600);
+    background-color: var(---1989-600);
+    color: var(---1989-Original-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-1989:hover{
-    background-color:  var(---1989-600);
-    color: var(---1989-Original-200);
+    background-color:  var(---1989-Original-200);
+    color: var(---1989-600);
 }
 
 
 #btn-Reputation{
-    background-color: var(--reputation-200);
-    color: var(--reputation-600);
+    background-color: var(--reputation-600);
+    color: var(--reputation-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-Reputation:hover{
-    background-color:  var(--reputation-600);
-    color: var(--reputation-200);
+    background-color:  var(--reputation-200);
+    color: var(--reputation-600);
 }
 
 
 #btn-Lover{
-    background-color: var(--lover-200);
-    color: var(--lover-600);
+    background-color: var(--lover-600);
+    color: var(--lover-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-Lover:hover{
-    background-color:  var(--lover-600);
-    color: var(--lover-200);
+    background-color:  var(--lover-200);
+    color: var(--lover-600);
 }
 
 
 #btn-Folklore{
-    background-color: var(--folklore-Original-200);
-    color: var(--folklore-600);
+    background-color: var(--folklore-600);
+    color: var(--folklore-Original-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-Folklore:hover{
-    background-color: var(--folklore-600);
-    color: var(--folklore-Original-200);
+    background-color: var(--folklore-Original-200);
+    color: var(--folklore-600);
 }
 
 
 #btn-Evermore{
-    background-color: var(--evermore-200);
-    color: var(--evermore-600);
+    background-color:  var(--evermore-600);
+    color: var(--evermore-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-Evermore:hover{
-    background-color:  var(--evermore-600);
-    color: var(--evermore-200);
+    background-color: var(--evermore-200);
+    color: var(--evermore-600);
 }
 
 #btn-Midnights{
-    background-color: var(--midnights-200);
-    color: var(--midnights-600);
+    background-color:  var(--midnights-600);
+    color: var(--midnights-200);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 #btn-Midnights:hover{
-    background-color:  var(--midnights-600);
-    color: var(--midnights-200);
+    background-color: var(--midnights-200);
+    color: var(--midnights-600);
 }
 
 #btn-TheTorturedPoetDepartment{
-    background-color: var(--TTPD-200);
-    color: var(--TTPD-600);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    background-color:  var(--TTPD-600);
+    color: var(--TTPD-200);
 }
 
 #btn-TheTorturedPoetDepartment:hover{
-    background-color:  var(--TTPD-600);
-    color: var(--TTPD-200);
+    color: var(--TTPD-600);
+    background-color: var(--TTPD-200);
 }
 
 .Era-Link img {
