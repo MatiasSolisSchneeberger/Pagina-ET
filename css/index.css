@@ -370,13 +370,13 @@ p {
     background-color: var(--speak-now-Original-400);
 }
 #era-red .Color-Multiplicar{
-    background-color: var(--red-Original-800);
+    background-color: var(--red-500);
 }
 #era-1989 .Color-Multiplicar{
     background-color: var(---1989-Original-200);
 }
 #era-reputation .Color-Multiplicar{
-    background-color: var(--reputation-Original-500);
+    background-color: var(--reputation-300);
 }
 #era-lover .Color-Multiplicar{
     background-color: var(--lover-Original-300);
@@ -614,3 +614,49 @@ p {
 }
 
 
+.header-fechas {
+    border-radius: 12px;
+    padding: 25px 110px 25px 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 212px;
+    position: relative;
+}
+.descripcion-fechas {
+    color: var(--taylor-swift-100, #e1edde);
+    text-align: center;
+    font-family: "AbrilFatface-Regular", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+}
+.descripcion-fechas2 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.bienvenidos-a-las-pr-ximas-fechas-del-emocionante-eras-tour-de-taylor-swift-sum-rgete-en-la-anticipaci-n-mientras-te-presentamos-las-pr-ximas-oportunidades-para-presenciar-la-magia-de-taylor-en-vivo-descubre-las-fechas-y-lugares-donde-taylor-llevar-su-incre-ble-espect-culo-en-este-emocionante-viaje-musical-prep-rate-para-ser-parte-de-una-experiencia-inolvidable-junto-a-tus-amigos-swifties {
+    color: var(--taylor-swift-100, #e1edde);
+    text-align: left;
+    font-family: "Nunito-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+  

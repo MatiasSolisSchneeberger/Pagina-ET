@@ -271,14 +271,14 @@
 
 
 #btn-SetList{
-    background-color: var(--fearless-200);
-    color: var(--fearless-600);
-    border: var(--fearless-800) solid 2px;
+    background-color: var(--midnights-200);
+    color: var(--midnights-600);
+    border: var(--midnights-800) solid 2px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 #btn-SetList:hover{
-    background-color:  var(--fearless-600);
-    color: var(--fearless-200);
+    background-color:  var(--midnights-600);
+    color: var(--midnights-200);
 }
 
 
