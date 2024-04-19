@@ -9,5 +9,6 @@
         "plaintext",
         "html"
     ],
-    "livePreview.defaultPreviewPath": "/index.html"
+    "livePreview.defaultPreviewPath": "/index.html",
+    "cmake.configureOnOpen": false
 }

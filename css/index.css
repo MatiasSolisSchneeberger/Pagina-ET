@@ -599,22 +599,11 @@ p {
     color: var(--mashup-color3);
 }
 
-.Proximo{
-    background: var(--TTPD-800);
-    border-radius: 12px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    color: var(--TTPD-200);
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
+.Fechas {
+    background-color: var(--taylor-swift-800);
 }
 
-
-.header-fechas {
+.fechas-descripcion {
     border-radius: 12px;
     padding: 25px 110px 25px 110px;
     display: flex;
@@ -627,30 +616,20 @@ p {
     height: 212px;
     position: relative;
 }
-.descripcion-fechas {
-    color: var(--taylor-swift-100, #e1edde);
+.fechas-titulo {
+    color: var(--taylor-swift-200);
     text-align: center;
-    font-family: "AbrilFatface-Regular", sans-serif;
+    font-family: "Abril Fatface", sans-serif;
     font-size: 48px;
     font-weight: 400;
     position: relative;
     align-self: stretch;
 }
-.descripcion-fechas2 {
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-}
-.bienvenidos-a-las-pr-ximas-fechas-del-emocionante-eras-tour-de-taylor-swift-sum-rgete-en-la-anticipaci-n-mientras-te-presentamos-las-pr-ximas-oportunidades-para-presenciar-la-magia-de-taylor-en-vivo-descubre-las-fechas-y-lugares-donde-taylor-llevar-su-incre-ble-espect-culo-en-este-emocionante-viaje-musical-prep-rate-para-ser-parte-de-una-experiencia-inolvidable-junto-a-tus-amigos-swifties {
-    color: var(--taylor-swift-100, #e1edde);
+
+.descripción {
+    color: var(--taylor-swift-200, #e1edde);
     text-align: left;
-    font-family: "Nunito-Regular", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 14px;
     font-weight: 400;
     position: relative;
@@ -659,4 +638,4 @@ p {
     align-items: center;
     justify-content: flex-start;
 }
-  
+
