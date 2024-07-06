@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body,html{margin:0;padding:0}:root{--theme-color-1:#034a62;--theme-color-2:#d1f3ff}::selection{background-color:#fff;color:var(--theme-color-2)}.toast{background-color:var(--theme-color-2)!important;border:2px solid var(--theme-color-1)!important;color:var(--theme-color-1)!important;font-family:var(--font)!important}
